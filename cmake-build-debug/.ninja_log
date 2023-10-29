@@ -1,0 +1,8 @@
+# ninja log v5
+0	64	7203261207302881	build.ninja	48bef43cc150654
+2	290	7201589750625990	CMakeFiles/cpp-sdl-playground.dir/renderImage.cpp.obj	267646e499232a2a
+1	746	7199905161091290	CMakeFiles/cpp_sdl_playground.dir/main.cpp.obj	3874f29c32336354
+2	278	7200793596303899	CMakeFiles/cpp-sdl-playground.dir/main.cpp.obj	cd5f9ff25e8daf3c
+746	832	7199905161928484	cpp_sdl_playground.exe	ed1d137378eadb16
+311	380	7202430476412764	cpp-sdl-playground.exe	7e81d3b639865a40
+2	289	7203223131801237	CMakeFiles/cpp-sdl-playground.dir/eventHandling.cpp.obj	ba229b0ffe510785
