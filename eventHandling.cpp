@@ -99,7 +99,7 @@ bool init()
         else
         {
             int imgFlags = IMG_INIT_PNG;
-            auto initialized = !(IMG_Init(imgFlags));
+            bool initialized = !(IMG_Init(imgFlags));
             if (initialized & imgFlags)
             {
                 printf("SDL_image couldn't initialize! Error: %s\n", IMG_GetError());
@@ -166,10 +166,10 @@ bool loadMedia()
 SDL_Surface* loadSurface(const std::string& path)
 {
     SDL_Surface* optimizedSurface = nullptr;
-    SDL_Surface* loadedSurface = SDL_LoadBMP(path.c_str());
+    SDL_Surface* loadedSurface = IMG_Load(path.c_str());
     if (loadedSurface == nullptr)
     {
-        printf("Unable to load image %s! SDL Error: %s\n", path.c_str(), SDL_GetError());
+        printf("Unable to load image %s! SDL Error: %s\n", path.c_str(), IMG_GetError());
     }
     else
     {
