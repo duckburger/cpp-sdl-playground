@@ -13,7 +13,6 @@ SDL_Texture* gTexture = nullptr;
 bool Init();
 bool LoadMedia();
 void Close();
-SDL_Surface* LoadSurface(const std::string& path);
 SDL_Texture* LoadTexture(const std::string& path);
 
 
@@ -42,6 +41,7 @@ int main(int argv, char** args)
         SDL_RenderPresent(gRenderer);
     }
 
+    Close();
     return 0;
 }
 
