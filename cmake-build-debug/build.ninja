@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/kiril/Documents/Repos/_NOT$ GAMES/cpp-sdl-playgr
 
 build cmake_object_order_depends_target_cpp-sdl-playground: phony || CMakeFiles/cpp-sdl-playground.dir
 
-build CMakeFiles/cpp-sdl-playground.dir/eventHandling.cpp.obj: CXX_COMPILER__cpp-sdl-playground_unscanned_Debug C$:/Users/kiril/Documents/Repos/_NOT$ GAMES/cpp-sdl-playground/eventHandling.cpp || cmake_object_order_depends_target_cpp-sdl-playground
-  DEP_FILE = CMakeFiles\cpp-sdl-playground.dir\eventHandling.cpp.obj.d
+build CMakeFiles/cpp-sdl-playground.dir/textureLoading.cpp.obj: CXX_COMPILER__cpp-sdl-playground_unscanned_Debug C$:/Users/kiril/Documents/Repos/_NOT$ GAMES/cpp-sdl-playground/textureLoading.cpp || cmake_object_order_depends_target_cpp-sdl-playground
+  DEP_FILE = CMakeFiles\cpp-sdl-playground.dir\textureLoading.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -I"C:/Users/kiril/Documents/Repos/_NOT GAMES/cpp-sdl-playground/SDL2/x86_64-w64-mingw32/include/SDL2"
   OBJECT_DIR = CMakeFiles\cpp-sdl-playground.dir
@@ -64,7 +64,7 @@ build CMakeFiles/cpp-sdl-playground.dir/eventHandling.cpp.obj: CXX_COMPILER__cpp
 #############################################
 # Link the executable cpp-sdl-playground.exe
 
-build cpp-sdl-playground.exe: CXX_EXECUTABLE_LINKER__cpp-sdl-playground_Debug CMakeFiles/cpp-sdl-playground.dir/eventHandling.cpp.obj | C$:/Users/kiril/Documents/Repos/_NOT$ GAMES/cpp-sdl-playground/SDL2/x86_64-w64-mingw32/lib/libSDL2main.a C$:/Users/kiril/Documents/Repos/_NOT$ GAMES/cpp-sdl-playground/SDL2/x86_64-w64-mingw32/lib/libSDL2.dll.a C$:/Users/kiril/Documents/Repos/_NOT$ GAMES/cpp-sdl-playground/SDL2/x86_64-w64-mingw32/lib/libSDL2_image.dll.a
+build cpp-sdl-playground.exe: CXX_EXECUTABLE_LINKER__cpp-sdl-playground_Debug CMakeFiles/cpp-sdl-playground.dir/textureLoading.cpp.obj | C$:/Users/kiril/Documents/Repos/_NOT$ GAMES/cpp-sdl-playground/SDL2/x86_64-w64-mingw32/lib/libSDL2main.a C$:/Users/kiril/Documents/Repos/_NOT$ GAMES/cpp-sdl-playground/SDL2/x86_64-w64-mingw32/lib/libSDL2.dll.a C$:/Users/kiril/Documents/Repos/_NOT$ GAMES/cpp-sdl-playground/SDL2/x86_64-w64-mingw32/lib/libSDL2_image.dll.a
   FLAGS = -g
   LINK_LIBRARIES = -lmingw32  -mwindows  "C:/Users/kiril/Documents/Repos/_NOT GAMES/cpp-sdl-playground/SDL2/x86_64-w64-mingw32/lib/libSDL2main.a"  "C:/Users/kiril/Documents/Repos/_NOT GAMES/cpp-sdl-playground/SDL2/x86_64-w64-mingw32/lib/libSDL2.dll.a"  "C:/Users/kiril/Documents/Repos/_NOT GAMES/cpp-sdl-playground/SDL2/x86_64-w64-mingw32/lib/libSDL2_image.dll.a"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp-sdl-playground.dir

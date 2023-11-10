@@ -15,5 +15,5 @@ include_directories(${SDL2_INCLUDE_DIR})
 find_package(SDL2_IMAGE REQUIRED)
 include_directories(${SDL2_IMAGE_INCLUDE_DIR})
 
-add_executable(${PROJECT_NAME} eventHandling.cpp)
+add_executable(${PROJECT_NAME} textureLoading.cpp)
 target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARY} ${SDL2_IMAGE_LIBRARY})

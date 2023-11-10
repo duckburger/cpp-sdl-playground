@@ -1,17 +1,16 @@
 # ninja log v5
-0	64	7203261207302881	build.ninja	48bef43cc150654
+0	64	7212784715872694	build.ninja	48bef43cc150654
 2	290	7201589750625990	CMakeFiles/cpp-sdl-playground.dir/renderImage.cpp.obj	267646e499232a2a
 1	746	7199905161091290	CMakeFiles/cpp_sdl_playground.dir/main.cpp.obj	3874f29c32336354
 2	278	7200793596303899	CMakeFiles/cpp-sdl-playground.dir/main.cpp.obj	cd5f9ff25e8daf3c
 746	832	7199905161928484	cpp_sdl_playground.exe	ed1d137378eadb16
-311	380	7202430476412764	cpp-sdl-playground.exe	7e81d3b639865a40
-2	289	7203223131801237	CMakeFiles/cpp-sdl-playground.dir/eventHandling.cpp.obj	ba229b0ffe510785
-2	62	7203263272773018	cpp-sdl-playground.exe	5056d1ebac6c600f
-1	952	7210316996076194	CMakeFiles/cpp-sdl-playground.dir/eventHandling.cpp.obj	ba229b0ffe510785
-952	1125	7210316997782473	cpp-sdl-playground.exe	5056d1ebac6c600f
-1	482	7210664534423254	CMakeFiles/cpp-sdl-playground.dir/eventHandling.cpp.obj	ba229b0ffe510785
-482	589	7210664535479998	cpp-sdl-playground.exe	5056d1ebac6c600f
-2	300	7210664752690086	CMakeFiles/cpp-sdl-playground.dir/eventHandling.cpp.obj	ba229b0ffe510785
-300	350	7210664753173463	cpp-sdl-playground.exe	5056d1ebac6c600f
-3	842	7212055697120756	CMakeFiles/cpp-sdl-playground.dir/eventHandling.cpp.obj	ba229b0ffe510785
 843	965	7212055698327238	cpp-sdl-playground.exe	5056d1ebac6c600f
+3	842	7212055697120756	CMakeFiles/cpp-sdl-playground.dir/eventHandling.cpp.obj	ba229b0ffe510785
+0	755	7212784911198597	CMakeFiles/cpp-sdl-playground.dir/textureLoading.cpp.obj	abc1aafc023d924
+756	876	7212784912380323	cpp-sdl-playground.exe	e233b4eed34a4ba
+2	392	7212832770964898	CMakeFiles/cpp-sdl-playground.dir/textureLoading.cpp.obj	abc1aafc023d924
+393	448	7212832771493124	cpp-sdl-playground.exe	e233b4eed34a4ba
+2	301	7212862490608145	CMakeFiles/cpp-sdl-playground.dir/textureLoading.cpp.obj	abc1aafc023d924
+301	360	7212862491166278	cpp-sdl-playground.exe	e233b4eed34a4ba
+1	301	7212863787687043	CMakeFiles/cpp-sdl-playground.dir/textureLoading.cpp.obj	abc1aafc023d924
+301	353	7212863788180465	cpp-sdl-playground.exe	e233b4eed34a4ba

@@ -16,11 +16,11 @@ enum KeyPressSurfaces
     KEY_PRESS_SURFACE_TOTAL
 };
 
-bool init();
-bool loadMedia();
-void close();
+bool Init();
+bool LoadMedia();
+void Close();
 
-SDL_Surface* loadSurface(const std::string& path);
+SDL_Surface* LoadSurface(const std::string& path);
 SDL_Window* gWindow = nullptr;
 SDL_Surface* gScreenSurface = nullptr;
 SDL_Surface* gKeyPressSurfaces[KEY_PRESS_SURFACE_TOTAL];
@@ -81,7 +81,7 @@ int main(int argv, char** args)
     return 0;
 }
 
-bool init()
+bool Init()
 {
     bool success = true;
     if (SDL_Init(SDL_INIT_VIDEO) < 0)
@@ -116,7 +116,7 @@ bool init()
     return success;
 }
 
-bool loadMedia()
+bool LoadMedia()
 {
     bool success = true;
 
@@ -163,7 +163,7 @@ bool loadMedia()
     return success;
 }
 
-SDL_Surface* loadSurface(const std::string& path)
+SDL_Surface* LoadSurface(const std::string& path)
 {
     SDL_Surface* optimizedSurface = nullptr;
     SDL_Surface* loadedSurface = IMG_Load(path.c_str());
